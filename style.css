@@ -1,0 +1,284 @@
+.body{
+    background-color:#e9ecef;
+   
+    
+}
+.landingpage{
+    background-image: url(./IMAGES/simple-uniques-friendlly.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    opacity: 50px;
+    color: white;
+}
+.seemore2 li{
+    list-style: none;
+    margin-left: 3%;
+    border-style: none;
+    border-right: black solid 2px;
+    
+}
+.seemore2{
+    display: flex;
+    gap: 40px;
+    border-radius: 50px;
+    background-color: white;
+    color: blue;
+    padding: 25px 5px 25px 5px;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+.home{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 40%;
+    margin-left: 30px;
+}
+
+#nuroshei{
+width: 20px;
+height: 20px;
+}
+.outhotels  {
+   padding-top: 100px;
+   
+}
+#image1,
+#image2
+{
+   width: 25%;
+   height: 300px;
+   border-radius: 20px;
+   gap: 30px;
+   
+}
+#image3{
+    width: 25%;
+    height: 300px;
+    border-radius: 20px;
+   
+}
+.rates{
+    width:10px;
+height: 10px;
+}
+.seemore{
+    color: blue;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-style: none;
+    border: 2px solid blue;
+    background-color: white;
+    border-radius: 10px;
+  
+  
+}
+.buttonss{
+    margin-left: 60px;
+}
+.popularhotels{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+.ourhotels{
+    margin-left: 60px;
+    justify-content: space-between;
+   
+}
+#h3,
+#h1{
+    text-align: center;
+}
+#facility1
+{
+    background-color: whitesmoke;
+    border-radius: 30px;
+    border-radius: 10px;
+    width:200px ;
+  margin-right: 100px;
+  height: 180px;
+}
+.ourfacilities1{
+margin-bottom: 20px;
+
+}
+#rooms{
+    text-align: center;
+}
+#roomimg1{
+border-radius: 5px;
+width: 300px;
+height: 260px;
+}
+.ROOM{
+    background-color: white;
+    
+}
+.ROOM #button{
+    color: blue;
+}
+
+
+.rooms1
+{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+ 
+ 
+}
+
+.rooms2{
+    display: flex;
+    gap: 50px;
+    margin-left: 60px;
+    
+   
+}
+#menu{
+    text-align: center;
+}
+#lunch{
+    color: blue;
+    
+}
+.Menu1,
+.Menu2{
+margin-bottom: 60px;
+margin-left: 60px;
+display: flex;
+gap: 30px;
+
+
+}
+#food1{
+    width: 300px;
+    height:250px;
+    border-radius: 10px;
+}
+.mybutton{
+    border-style: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.booknow{
+    border-style: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#clientswords{
+    text-align: center;
+}
+.REVIEWS{
+    display: flex;
+   gap:100px;
+    
+    margin-left: 90px;
+}
+#users,
+#users2,
+#users3{
+    width:50px;
+height: 40px;
+}
+#users2,
+#users3{
+    margin-bottom: 30px;
+     margin-top: -300%;
+       
+}
+
+
+
+.message{
+    border: 1px white;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 30px;
+}
+#arrow{
+height: 20px;
+width:20px ;
+}
+.ARROW{
+    text-align: center;
+}
+#reccomendation{
+width:60px ;
+height:50px ;
+}
+.recommend{
+    display: flex;
+    gap: 30px;
+}
+.CHOOSEUS{
+    display: flex;
+    gap: 120px;
+}
+.WHYUS{
+    margin-bottom: 30%;
+}
+ #buttonus{
+    border-radius: 5px;
+    padding: 10px 2px 10px 2px;
+    background-color: blue;
+    color: white;
+    border-style: none;
+}
+
+
+
+.footer{
+    display: flex;
+    gap: 300px;
+}
+.newslettter{
+    background-color: blue;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding: 50px;
+}
+.email{
+   display: flex;
+   gap: 250px;
+   list-style: none;
+   background-color: white;
+   border-radius: 30px;
+   padding: 17px 0px 6px 20px;
+   margin-left: 30%;
+   margin-right: 30%;
+
+   
+}
+#subscribe1{
+    background-color: blue;
+    border-style: none;
+    border-radius: 20px;
+    padding: 15px 15px;
+    color: white;
+    
+   
+}
+#fbicon{
+    width:30px;
+height: 30px;
+}
+@media(max-width:800px){
+    .landingpage{
+margin-left: 50px;
+    }
+}
