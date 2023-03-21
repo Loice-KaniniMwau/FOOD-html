@@ -15,20 +15,22 @@
     list-style: none;
     margin-left: 3%;
     border-style: none;
-    border-right: black solid 2px;
+    /* border-right: black solid 2px; */
     
 }
 .seemore2{
     display: flex;
-    gap: 40px;
+    gap: 100px;
     border-radius: 50px;
     background-color: white;
+    
     color: blue;
     padding: 25px 5px 25px 5px;
     margin-left: 25%;
     margin-right: 30%;
     margin-top: 10%;
 }
+
 .home{
     display: flex;
     gap: 100px;
@@ -63,20 +65,36 @@ height: 20px;
     width:10px;
 height: 10px;
 }
-.seemore{
+.seemore
+{
     color: blue;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding:5px 14px 5px 14px;
+    
     border-style: none;
     border: 2px solid blue;
     background-color: white;
-    border-radius: 10px;
+    border-color: blue;
+    border-radius: 5%;
   
   
 }
+.seemore1{
+      color: white;
+      padding:5px 14px 5px 14px;
+    border-style: none;
+    border: 2px solid blue;
+    background-color:blue;
+    border-radius: 5%;
+}
+#homebuttons{
+    margin-top: 1%;
+}
 .buttonss{
     margin-left: 60px;
+}
+#checkin{
+    width: 20px;
+    height: 20px;
 }
 .popularhotels{
     text-align: center;
@@ -104,6 +122,10 @@ height: 10px;
 .ourfacilities1{
 margin-bottom: 20px;
 
+}
+#star{
+width: 5%;
+height: 5%;
 }
 #rooms{
     text-align: center;
@@ -278,7 +300,63 @@ height:50px ;
 height: 30px;
 }
 @media(max-width:800px){
-    .landingpage{
-margin-left: 50px;
-    }
+    .home{
+flex-direction: column;
+margin-right: 0%;
+margin-left: 10%;
+gap: 10%;
+}
+#homebuttons{
+    flex-direction: column;
+}
+.seemore2{
+    flex-direction: column;
+   
+    margin-left: 10%;
+   
+}
+.seemore2 li{
+    border-right: none;
+  
+}
+.ourhotels{
+   justify-content: 0%;
+   margin-left: 0%;
+}
+
+.rooms1 ,
+.rooms2{
+    flex-direction: column;
+    margin-bottom: 0%;
+   margin-right: 0%;
+   margin-left: 0%;
+} 
+.ROOM{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-right: 0%;
+ 
+}
+.Menu1,
+.Menu2{
+    flex-direction: column;
+    margin-bottom: 0%;
+margin-left: 0%;
+}
+.REVIEWS{
+    flex-direction: column;
+    margin-left: 0%;
+}
+.CHOOSEUS{
+    flex-direction: column;
+}
+.email{
+    flex-direction: column;
+    gap: 0%;
+    margin-left: 0%;
+}
+.footer{
+    flex-direction: column;
+    gap: 10%;
+}
 }
