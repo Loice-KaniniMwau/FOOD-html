@@ -336,10 +336,31 @@ height: 30px;
 }
 .home1{
     display: flex;
-    gap: 100px;
+    gap: 5%;
+    flex-direction: column;
    
     /* margin-bottom: 40%;
     margin-left: 30px; */
+}
+#contactus
+{
+    text-align: left;
+}
+#lorem{
+    margin-left: 0%;
+}
+.forms{
+    flex-direction:column ;
+    gap: 10%;
+}
+.forms input{
+    /* padding: 2% 2% 2% 2%; */
+}
+.footer1{
+    flex-direction: column;
+    width: 50%;
+    padding-left: 10%;
+    margin-right: 0%;
 }
 .body2{
 background-color: #e9ecef;
@@ -414,7 +435,7 @@ margin-left: 5%;
 
 .footer1{
     display: flex;
-    gap: 300px;
+    /* gap: 300px; */
     background-color: white;
     margin-top: 5%;
 }
@@ -503,6 +524,7 @@ text-decoration: none;
 }
 #homebuttons{
     flex-direction: column;
+    grid-template-columns: auto auto;
 }
 .seemore2{
     /* flex-direction: column; */
@@ -615,4 +637,9 @@ margin-left: 0%;
     display: grid;
     grid-template-rows: auto auto auto;
 } */
+.forms{
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
 }
